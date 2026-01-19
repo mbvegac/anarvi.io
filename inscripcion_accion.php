@@ -1,8 +1,8 @@
 <?php
 include("conexion.php");
 
-define('SITE_KEY', '6LeAoEEdAAAAAMjjn1vQ6uBDcg7qFFrhIGll3Rtf');
-define('SECRET_KEY', '6LeAoEEdAAAAAFO5UJ_VwC1pvJsNNHYvlMr7erRO');
+define('SITE_KEY', '');
+define('SECRET_KEY', '');
 
 
 if($_POST){
@@ -113,4 +113,5 @@ if($_POST){
 
 	
 //}
+
 ?>
