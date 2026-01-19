@@ -1,16 +1,16 @@
 <?php
 
 //Conection DES
-$servername = "localhost";
-$database = "jubiladosrv";
-$username = "root";
+$servername = "";
+$database = "";
+$username = "";
 $password = "";
 
 //Conection PRD
-//$servername = "localhost";
-//$database = "esywerce_jubiladosrv";
-//$username = "esywerce_jubi";
-//$password = "4B6HXbQt8@@,";
+//$servername = "";
+//$database = "";
+//$username = "";
+//$password = "";
 
 // Create connection
 $conn = mysqli_connect($servername, $username, $password, $database);
@@ -18,5 +18,6 @@ $conn = mysqli_connect($servername, $username, $password, $database);
 if (!$conn) {
     die("Connection failed: " . mysqli_connect_error());
 }
+
 
 ?>
